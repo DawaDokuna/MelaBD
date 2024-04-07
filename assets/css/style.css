@@ -79,7 +79,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #2e1065;
+  background: #13072b;
   overflow-y: auto;
 }
 
@@ -87,7 +87,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #1d0944;
+  border: 8px solid #0f0424;
 }
 
 #header .profile h1 {
@@ -241,7 +241,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/Byakuya.jpg") top center;
   background-size: cover;
 }
 
