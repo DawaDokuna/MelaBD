@@ -13,10 +13,10 @@ const interval = setInterval(function() {
 
   // Mostrar el contador en el elemento con id "countdown"
   document.getElementById("countdown").innerHTML = `
-    <p>${days} días</p>
-    <p>${hours} horas</p>
-    <p>${minutes} minutos</p>
-    <p>${seconds} segundos</p>
+    <p class="col-12 col-lg-2 py-2 mx-auto rounded-pill" style="background-color: blueviolet;">${days} Días</p>
+    <p class="col-12 col-lg-2 py-2 mx-auto rounded-pill" style="background-color: blueviolet;">${hours} Horas</p>
+    <p class="col-12 col-lg-2 py-2 mx-auto rounded-pill" style="background-color: blueviolet;">${minutes} Minutos</p>
+    <p class="col-12 col-lg-2 py-2 mx-auto rounded-pill" style="background-color: blueviolet;">${seconds} Segundos</p>
   `;
 
   // Si el contador llega a cero, detener la actualización
